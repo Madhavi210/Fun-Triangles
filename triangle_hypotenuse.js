@@ -14,3 +14,6 @@ function calculateHypotenuse() {
         lengthHypotenuse.innerText = "Please enter values of sides above zero!";
         lengthHypotenuse.style.color = "red";
     }
+
+
+calculateBtn.addEventListener("click", calculateHypotenuse);
