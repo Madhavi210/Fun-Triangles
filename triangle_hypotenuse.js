@@ -15,5 +15,5 @@ function calculateHypotenuse() {
         lengthHypotenuse.style.color = "red";
     }
 
-
+}
 calculateBtn.addEventListener("click", calculateHypotenuse);
