@@ -13,3 +13,5 @@ function calculateArea() {
         result.style.color = "red";
     }
 }
+
+calculateBtn.addEventListener("click", calculateArea);
