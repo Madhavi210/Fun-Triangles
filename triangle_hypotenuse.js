@@ -10,4 +10,7 @@ function calculateHypotenuse() {
         lengthHypotenuse.innerText = "Length of Hypotenuse is: " + hypotenuse + "cm";
         lengthHypotenuse.style.color = "green";
     }
-
+    else {
+        lengthHypotenuse.innerText = "Please enter values of sides above zero!";
+        lengthHypotenuse.style.color = "red";
+    }
