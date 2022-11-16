@@ -8,4 +8,8 @@ function calculateArea() {
         result.innerText = "Area of triangle: " + area + "cm²";
         result.style.color = "green";
     }
-    
+    else {
+        result.innerText = "Please enter values above 0";
+        result.style.color = "red";
+    }
+}
