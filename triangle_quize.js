@@ -7,3 +7,10 @@ const answers = ['55°', "Isosceles", " 4 cm", "BF = CE"];
 function calculateScore() {
     let score = 0;
     let index = 0;
+    const formResult = new FormData(formQuize);
+    for (let value of formResult.values()) {
+        if (value === answers[index]) {
+            score = score + 1;
+        }
+        index = index + 1;
+    }
