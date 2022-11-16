@@ -4,3 +4,10 @@ const lengthHypotenuse = document.querySelector(".result");
 
 let hypotenuse;
 function calculateHypotenuse() {
+
+    if (Number(length[0].value) > 0 && Number(length[1].value) > 0) {
+        hypotenuse = Math.sqrt(Number(length[0].value) ** 2 + Number(length[1].value) ** 2);
+        lengthHypotenuse.innerText = "Length of Hypotenuse is: " + hypotenuse + "cm";
+        lengthHypotenuse.style.color = "green";
+    }
+
