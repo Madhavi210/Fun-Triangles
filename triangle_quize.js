@@ -1,0 +1,1 @@
+var formQuize = document.querySelector(".quize-form");
