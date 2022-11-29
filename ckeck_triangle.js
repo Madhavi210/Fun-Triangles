@@ -26,6 +26,7 @@ function isTriangle() {
   }
 }
 
+
 function calculateSumOfAngles(angle1, angle2, angle3) {
   var sumOfAngles = angle1 + angle2 + angle3;
   return sumOfAngles;
