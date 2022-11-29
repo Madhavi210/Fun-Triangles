@@ -32,4 +32,5 @@ function calculateSumOfAngles(angle1, angle2, angle3) {
   return sumOfAngles;
 }
 
+
 isTriangleBtn.addEventListener("click", isTriangle);
