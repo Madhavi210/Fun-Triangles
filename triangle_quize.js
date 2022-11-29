@@ -16,5 +16,4 @@ function calculateScore() {
     }
     output.innerText = "your score is " + score + "/4"
 }
-
 submitBtn.addEventListener("click", calculateScore);
