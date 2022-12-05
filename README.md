@@ -7,4 +7,4 @@ count length of hypotenuse
 count area of triangle
 it looks like...
 
-let's try --> https://triangle-zone.netlify.app/
+let's try -->  https://thriving-blini-92d33c.netlify.app
