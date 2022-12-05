@@ -15,3 +15,4 @@ function calculateArea() {
 }
 
 calculateBtn.addEventListener("click", calculateArea);
+

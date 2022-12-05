@@ -17,3 +17,4 @@ function calculateHypotenuse() {
 
 }
 calculateBtn.addEventListener("click", calculateHypotenuse);
+
